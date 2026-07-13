@@ -41,9 +41,3 @@ Limites du modèle
 Il s’agit d’un modèle de premier ordre centré sur le bilan de masse, volontairement simple : une température de puits équivalente unique (sans variations orbitales transitoires), aucune prise en compte des masses de structure ou du contrôle d’attitude, pas de batteries pour les périodes d’éclipse (une orbite héliosynchrone à l’aube et au crépuscule est supposée), une efficacité de la pompe à chaleur constante vis-à-vis de la deuxième loi de la thermodynamique, et aucun modèle économique (la masse servant d’approximation du coût de lancement).
 
 Son objectif est de mettre en évidence la forme de l’espace des compromis, et non de remplacer un outil de simulation thermique détaillé comme ESATAN. Les corrections et propositions d’amélioration (pull requests) sont les bienvenues.
-
-Origine
-
-Ce modèle a été développé au cours d’une discussion exploratoire avec Claude (Anthropic), à partir de la question : « Pourrait-on inventer et breveter une meilleure méthode de refroidissement pour les centres de données orbitaux ? »
-
-Au fil des échanges, le modèle a progressivement réfuté trois architectures candidates — ce qui est précisément le rôle d’un modèle. La problématique du durcissement aux radiations, qui constitue l’autre grande contrainte des centres de données orbitaux, n’est pas traitée ici.
